@@ -1,2 +1,4 @@
 #!/bin/bash
-ln -s /../ ~/.emacs.d/private/outshine
+
+rm -rf ~/.emacs.d/private/outshine
+ln -s ~/1-mansort/git-/hub/emacs/spacemacs/outshine ~/.emacs.d/private/
