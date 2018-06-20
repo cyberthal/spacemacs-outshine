@@ -5,20 +5,27 @@
 
 # TOC links should be GitHub style anchors.
 * Table of Contents                                        :TOC_4_gh:noexport:
- - [[#description][Description]]
- - [[#install][Install]]
- - [[#key-bindings][Key bindings]]
- - [[#raw-notes][Raw notes]]
+- [[#description][Description]]
+- [[#install][Install]]
+  - [[#add-outshine-to-your-private-layers-directory][Add Outshine to your private layers directory]]
+  - [[#add-outshine-to-your-spacemacs][Add Outshine to your =~/.spacemacs=]]
+- [[#key-bindings][Key bindings]]
+- [[#raw-notes][Raw notes]]
 
 * Description
 This layer does wonderful things:
   - thing01
 
 * Install
-To use this configuration layer, add it to your =~/.spacemacs=. You will need to
-add =outshine= to the existing =dotspacemacs-configuration-layers= list in this
-file.
+** Add Outshine to your private layers directory
 
+Outshine's deploy script assumes your Spacemacs is installed in the default directory.
+
+Run =deploy.sh=.
+
+** Add Outshine to your =~/.spacemacs=
+
+Add =outshine= to the existing =dotspacemacs-configuration-layers= list.
 * Key bindings
 
 | Key Binding | Description    |
